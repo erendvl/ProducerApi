@@ -1,0 +1,12 @@
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\bin\Debug\net7.0\ProducerApi.Contracts.deps.json
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\bin\Debug\net7.0\ProducerApi.Contracts.dll
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\bin\Debug\net7.0\ProducerApi.Contracts.pdb
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ProducerApi.Contracts.csproj.AssemblyReference.cache
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ProducerApi.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ProducerApi.Contracts.AssemblyInfoInputs.cache
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ProducerApi.Contracts.AssemblyInfo.cs
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ProducerApi.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ProducerApi.Contracts.dll
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\refint\ProducerApi.Contracts.dll
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ProducerApi.Contracts.pdb
+C:\Users\ACER\ProducerApi\ProducerApi.Contracts\obj\Debug\net7.0\ref\ProducerApi.Contracts.dll

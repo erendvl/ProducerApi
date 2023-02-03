@@ -1,0 +1,14 @@
+@id=2;
+
+
+POST https://localhost:7041/Producer/{{{{id}}}}
+Content-Type: application/json
+
+{
+    "PicUrl": "randompic.png",
+    "Name":"Onur Ünlü",
+    "Description":"Türk senarist, yönetmen, yapimci, şair, müzisyen ve oyuncu.",
+   
+
+
+}

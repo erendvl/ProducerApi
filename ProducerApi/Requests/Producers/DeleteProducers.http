@@ -1,0 +1,5 @@
+@id=1;
+
+DELETE  https://localhost:7041/Producer/Index
+Content-Type: application/json
+
