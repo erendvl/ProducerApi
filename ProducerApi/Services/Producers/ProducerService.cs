@@ -1,4 +1,6 @@
+using ErrorOr;
 using ProducerApi.Models;
+using ProducerApi.ServiceErrors;
 
 namespace ProducerApi.Services.Producers;
 
@@ -6,24 +8,32 @@ public class ProdcerService:IProducerService
 {
 
     private readonly static  Dictionary<Guid,Producer>_producers=new();
-    public void CreateProducer(Producer producer)
+    public ErrorOr<Created> CreateProducer(Producer producer)
     {
        _producers.Add(producer.Id,producer);
+       return Result.Created;
     }
 
-    public void DeleteProducer(Guid id)
+    public ErrorOr<Deleted> DeleteProducer(Guid id)
     {
         _producers.Remove(id);
+        return Result.Deleted;
     }
 
-    public Producer GetProducer(Guid id)
+    public ErrorOr<Producer> GetProducer(Guid id)
     {
-        return _producers[id];
+        if(_producers.TryGetValue(id,out var producer))
+        {
+            return producer;
+        }
+        return Errors.Producer.NotFound;
     }
 
    
-    public void UpserBreakfast(Producer producer)
+    public ErrorOr<UpsertedProducerResult> UpserBreakfast(Producer producer)
     {
-        _producers[producer.Id]=producer;
+       var isNewlyCreated=!_producers.ContainsKey(producer.Id);
+       _producers[producer.Id]=producer;
+        return new UpsertedProducerResult(isNewlyCreated);
     }
 }
